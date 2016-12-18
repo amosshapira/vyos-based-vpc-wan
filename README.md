@@ -27,12 +27,12 @@ $ ./bin/demo-up-all-examples
 ```
 This should bring up the entire WAN and connect between all VPC's.
 
-It takes a couple of minutes for each VPN connection to be fully up and routes propagted. Have patience.
+It takes a couple of minutes for each VPN connection to be fully up and routes propagated. Have patience.
 
 When the links are up and the routes come through, the routing table of the private network in the hub will look something like this:
 ![](https://github.com/amosshapira/thermal/raw/master/docs/images/route-tables.png)
 
-You can see that the routes from all remote VPC's are available and were propagted automatically.
+You can see that the routes from all remote VPC's are available and were propagated automatically.
 
 When a tunnel is up, you'll see in the VPN Connection "UP" in the hub:
 ![](https://github.com/amosshapira/thermal/raw/master/docs/images/tunnels-up.png)
